@@ -1,6 +1,12 @@
 ### Test backend to setup Nginx/Cloudflare <br/><br/>
 
-#### run as local app
+![Pic](/img/pi-proxman.png)
+
+#### If you only want the app - clone and run local or as container
+
+<br/>
+
+#### Run as local app
 
 ```shell
 cd nodebackend
@@ -34,7 +40,9 @@ controller.js - strip out request data -> validate it -> call service<br/>
 service.js - business logic (maybe better to validate here) -> shape data -> call db<br/>
 db.js - calls to backend storage (database.json) - change to any backend storage<br/><br/><br/>
 
-#### Optional - Setup Nginx Proxy Manager, Cloudflare DSN to point a domain at your server
+#### Setup Docker, Nginx Proxy Manager, Cloudflare DSN to point a domain at your server
+
+#### I bought raspberrypi.ninja for $6 on namecheap.com
 
 <br/>
 
