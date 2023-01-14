@@ -233,6 +233,8 @@ piIP:4000 or piName.local:4000
 - move domain name servers to cloudflare
 - create api key
 
+![Pic](/img/apikey.png)
+
 #### Create oznu/cloudflare-ddns container
 
 ```shell
