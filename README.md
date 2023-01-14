@@ -2,6 +2,10 @@
 
 ![Pic](/img/pi-proxman.png)
 
+<br/>
+
+[Video Overview](https://youtu.be/BjJu43Lsxws)
+
 #### If you only want the app - clone and run local or as container
 
 <br/>
@@ -40,9 +44,13 @@ controller.js - strip out request data -> validate it -> call service<br/>
 service.js - business logic (maybe better to validate here) -> shape data -> call db<br/>
 db.js - calls to backend storage (database.json) - change to any backend storage<br/><br/><br/>
 
+[Video Overview](https://youtu.be/BjJu43Lsxws)
+
 #### Setup Docker, Nginx Proxy Manager, Cloudflare DSN to point a domain at your server
 
-#### I bought raspberrypi.ninja for $6 on namecheap.com
+<br/>
+
+#### I bought raspberrypi.training for $6 on namecheap.com
 
 <br/>
 
@@ -51,6 +59,8 @@ db.js - calls to backend storage (database.json) - change to any backend storage
 #### Ubuntu works great too
 
 <br/>
+
+
 
 #### Update PI
 
